@@ -1,12 +1,12 @@
+// import React from 'react';
 import Header from './header.jsx'
-import Student from './student.jsx';
+import Projects from './student.jsx';
 
 function App() {
     return(
         <>
         <Header/>
-        <Student name="Sam" age={17}/>
-        <Student name="Sam" age={17}/>
+        <Projects/>
         </>
   );
 }
